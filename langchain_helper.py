@@ -7,7 +7,7 @@ from langchain.vectorstores import Chroma
 from langchain.chains import RetrievalQAWithSourcesChain
 import os
 
-os.environ['MISTRAL_API_KEY'] = 'a9MWlrWvReyVrCAlxTCikjgePPNZepfu'
+os.environ['MISTRAL_API_KEY'] = 'your-api-key'
 model = init_chat_model('mistral-large-latest', model_provider='mistralai')
 
 def get_chain_from_url(url):
